@@ -77,6 +77,7 @@ RUN \
     libglib2.0-dev \
     libgomp1 \
     libpciaccess-dev \
+    libpulse-dev \
     libssl-dev \
     libtool \
     libv4l-dev \
@@ -790,6 +791,7 @@ RUN \
     --enable-libopenjpeg \
     --enable-libopus \
     --enable-libplacebo \
+    --enable-libpulse \
     --enable-librav1e \
     --enable-libshaderc \
     --enable-libsvtav1 \

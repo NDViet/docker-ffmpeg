@@ -64,6 +64,7 @@ RUN \
     libgomp1 \
     libharfbuzz-dev \
     libpciaccess-dev \
+    libpulse-dev \
     libssl-dev \
     libtool \
     libv4l-dev \
@@ -514,6 +515,7 @@ RUN \
     --enable-libopencore-amrwb \
     --enable-libopenjpeg \
     --enable-libopus \
+    --enable-libpulse \
     --enable-librav1e \
     --enable-libsvtav1 \
     --enable-libtheora \
